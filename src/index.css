@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  font-family: "Inter", sans-serif;
+}
+
+h1{
+  font-weight: 700;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.error{
+  min-height: 58vh;
+}
+.carousel{
+  border-bottom: 1px solid black;
+}
+.carousel-item {
+  height: 600px;
+}
+.carousel-caption{
+  left: 1 !important;
+  top: 40%;
+  text-align: left !important;
+}
+.carousel-caption h1{
+  font-size: 5rem;
+}
+.carousel-caption p{
+  font-size: 1.2rem;
+}
+#user-icon{
+  font-size: 1.5rem;
+}
+.navbar {
+  font-size: 1.2rem !important;
+  border-bottom: 1px solid black;
+}
+.nav-link, .dropdown-item{
+  padding-right: 1.2rem !important;
+  padding-left: 1.2rem !important;
+  color: black !important;
+  border-radius: 10px !important;
+}
+.nav-link:hover, .dropdown-item:hover, nav-link:active, .dropdown-item:active{
+  background-color: black !important;
+  color: white !important;
+  transition: all 0.3s;
+}
+.dropdown-menu{
+  background: white !important;
+  border: none !important;
+  padding-left: 0.7rem !important;
+  padding-right: 0.7rem !important;
+  font-size: 1.2rem !important;
+}
+.card{
+  border: 1px solid black !important;
+  border-radius: none !important;
+  min-height: 30rem !important;
+  background-position: center;
+  background-size: cover;
+  transition: ease-in-out 0.2s !important;
+}
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.card-product {
+  min-height: 40rem !important;
+}
+.card-product:hover{
+  cursor: pointer;
+  transform: scale(1);
+}
+.card-product img {
+  object-fit: cover;
+}
+.card-title{
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-size: 2.5rem !important;
+}
+.card-text{
+  font-size: 1.3rem !important;
+}
+
+.footer{
+  border-top: 1px solid black;
+  margin-top: 10px;
+  position: absolute;
+}
+.footer p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer-list{
+  list-style: none;
+}
+.product-details{
+  border: 1px solid black;
+  min-height: 30rem !important;
+}
+.add-to-cart{
+  bottom: 2rem;
+  right: 2rem;
+}
+.quantity{
+  width: 4rem !important;
+  bottom: 2rem;
+  left: 2rem;
+  border-radius: none !important;
+  border: 1px solid black !important;
+}
+.quantity-label{
+  bottom: 4.5rem;
+  left: 2rem;
+}
+.carousel-inner .carousel-item > img {
+  -webkit-animation: thing 20s;
+  -o-animation: thing 20s;
+  animation: thing 20s; 
+}
+@keyframes thing {
+  from {
+     transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
