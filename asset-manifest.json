@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project1/static/css/main.2af0f58c.css",
+    "main.js": "/project1/static/js/main.832b4cb7.js",
+    "static/js/453.842fb9b0.chunk.js": "/project1/static/js/453.842fb9b0.chunk.js",
+    "index.html": "/project1/index.html",
+    "main.2af0f58c.css.map": "/project1/static/css/main.2af0f58c.css.map",
+    "main.832b4cb7.js.map": "/project1/static/js/main.832b4cb7.js.map",
+    "453.842fb9b0.chunk.js.map": "/project1/static/js/453.842fb9b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2af0f58c.css",
+    "static/js/main.832b4cb7.js"
+  ]
+}
